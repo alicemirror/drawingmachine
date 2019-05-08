@@ -1,5 +1,5 @@
 # A Modular Kit for Machine Art Drawing
-## An Hypocycloid drawing machine controled by a BBC micro:bit
+## An Hypocycloid drawing machine controlled by a BBC micro:bit
 ![The machine](images/cover.jpg)
 
 ## BOM
