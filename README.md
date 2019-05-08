@@ -1,3 +1,13 @@
-# A Modular Drawing System for Machine Art Drawing
-## An Hypocycloid drawing machine that can be controled by a microcontroller. BBC micro:bit version
+# A Modular Drawing Kit for Machine Art Drawing
+## An Hypocycloid drawing machine controled by a BBC micro:bit
 ![The machine](images/cover.jpg)
+
+## JS Source
+The source file for the BBC micro:bit is the Javascript version of the makecode it was originally written. To run this project you should import the Kitronik all-in-one robotic board library from the makecode on the micro:bit site here.
+
+The same program can work as well without he board and in this case no library should be imported, but some changes to the motor control functions should be added.
+
+## Drawing and Rendering Stuff
+The folders STL and SVG contains the files needed for 3D print and laser-cut the moving parts. As well, if you plan to use a different motor for the wheels, the motor support should be redesigned. The laser-cut parts can also be printed on carboard and cut bu hand.
+
+
