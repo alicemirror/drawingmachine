@@ -1,13 +1,13 @@
-# A Modular Drawing Kit for Machine Art Drawing
+# A Modular Kit for Machine Art Drawing
 ## An Hypocycloid drawing machine controled by a BBC micro:bit
 ![The machine](images/cover.jpg)
 
 ## BOM
 To make this project you nedd at least the following parts:
 
-- BBC micro:bit
-- Kitronik All-in-one robotic board
-- Two (or more) metl geared micro motors by Kitronik
+- [BBC micro:bit](https://www.kitronik.co.uk/5614-bbc-microbit-board-only-retail-pack.html)
+- Kitronik [All-in-one robotic board](https://www.kitronik.co.uk/5641-all-in-one-robotics-board-for-bbc-microbit.html)
+- Two (or more) [metal geared micro](https://www.kitronik.co.uk/2586-n20-series-micro-metal-gearmotor-2981.html) motors by Kitronik
 
 ## JS Source
 The source file for the BBC micro:bit is the Javascript version of the makecode it was originally written. To run this project you should import the Kitronik all-in-one robotic board library from the makecode on the micro:bit site [here](https://makecode.microbit.org/#).
@@ -25,7 +25,7 @@ Select Java in the editor page then copy and paste the Javascript source from th
 
 ![All-in-one library](images/Screen%20Shot%202019-05-08%20at%2009.26.46.png)
 
-*The same program can work as well without the board and in this case no library should be imported, but some changes to the motor control functions should be added.
+*The same program can work as well without the board and in this case no library should be imported, but some changes to the motor control functions should be added.*
 
 If you only past the source *as-is* in the editor then you can revert it to the block view and the program will work as well. If you edit the Javascript the blocks view maybe no longer work properly. If you have knowledge of programming you can ignore the graphic view at all and proceed editing the source.
 
